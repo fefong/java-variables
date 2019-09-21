@@ -76,6 +76,24 @@ Example Application: Variables
 ##		Model Class Array | Custom Class
 		Person[] persons = new Person[] { (new Person("Person 1", 20)), (new Person("Person 2", 22)) };
 		
+
+## Java String Format Specifiers
+
+|  Format Specifier | Data Type| ... |
+|---|---|---|
+|%a|	floating point (except BigDecimal)||
+|%b|	Any type||
+|%c|	character||
+|%d|	integer (incl. byte, short, int, long, bigint)|usually used for int|
+|%e|	floating point||
+|%f|	floating point|usually used for float or double||
+|%g|	floating point||
+|%h|	any type||
+|%n|	none||
+|%o|	integer (incl. byte, short, int, long, bigint)||
+|%s|	any type|usually used for string||
+|%t|	Date/Time (incl. long, Calendar, Date and TemporalAccessor)||
+|%x|	integer (incl. byte, short, int, long, bigint)||
 		
 ## Some links for more in depth learning
 
