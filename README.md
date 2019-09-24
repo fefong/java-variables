@@ -4,78 +4,115 @@ Java Variables
 Example Application: Variables
 
 ##		String
-		String stringVal = "value";
+```java
+String stringVal = "value";
+```
 
 ##		String Array
-		String[] stringArrayVal = new String[] { "value 1", "value 2"};
+```java
+String[] stringArrayVal = new String[] { "value 1", "value 2"};
+```
 
 ##		Char
-		char charVal;
-		charVal = 'A';
-		charVal = '\u0001';
+```java
+char charVal;
+charVal = 'A';
+charVal = '\u0001';
+```
 
 ##		Char Array
-		char[] charArrayVal = new char[] { 'A', 'B', 'C', '\u0001' };
+```java
+char[] charArrayVal = new char[] { 'A', 'B', 'C', '\u0001' };
+```
 
 ##		Integer
-		int intVal = 1;
+```java
+int intVal = 1;
+```
 
 ##		Integer Array
-		int[] intArrayVal = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, Integer.MIN_VALUE, Integer.MAX_VALUE };
+```java
+int[] intArrayVal = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, Integer.MIN_VALUE, Integer.MAX_VALUE };
+```
 
 ##		Boolean
-		boolean boolVal;
-		boolVal = true;
-		boolVal = false;
+```java
+boolean boolVal;
+boolVal = true;
+boolVal = false;
+```
 
 ##		Long
-		long longVal;
-		longVal = (long) 10;
-		longVal = 10L;
-
+```java
+long longVal;
+longVal = (long) 10;
+longVal = 10L;
+```
 ##		Long Array
-		long[] longArrayVal = new long[] { 1L, 20L, Long.MIN_VALUE, Long.MAX_VALUE };
+```java
+long[] longArrayVal = new long[] { 1L, 20L, Long.MIN_VALUE, Long.MAX_VALUE };
+```
 
 ##		Byte
-		byte byteVal;
-		byteVal = 1;
-		byteVal = 0x10;
+```java
+byte byteVal;
+byteVal = 1;
+byteVal = 0x10;
+```
 
 ##		Byte Array
-		byte[] byteArrayVal = new byte[] { 0x10, 0x12, Byte.MIN_VALUE, Byte.MAX_VALUE };
+```java
+byte[] byteArrayVal = new byte[] { 0x10, 0x12, Byte.MIN_VALUE, Byte.MAX_VALUE };
+```
 
 ##		Float
-		float floatVal;
-		floatVal = (float) 1.2;
-		floatVal = 1.2F;
+```java
+float floatVal;
+floatVal = (float) 1.2;
+floatVal = 1.2F;
+```
 
 ##		Float Array
-		float[] floatArrayVal = new float[] { 1F, 1.2F, 4F, Float.MIN_VALUE, Float.MAX_VALUE };
+```java
+float[] floatArrayVal = new float[] { 1F, 1.2F, 4F, Float.MIN_VALUE, Float.MAX_VALUE };
+```
 
 ##		Double
-		double doubleVal;
-		doubleVal = 1.5;
+```java
+double doubleVal;
+doubleVal = 1.5;
+```
 
 ##		Double Array
-		double[] doubleArrayVal = new double[] { 1.2, 3, 3.2, Double.MIN_VALUE, Double.MAX_VALUE };
+```java		
+double[] doubleArrayVal = new double[] { 1.2, 3, 3.2, Double.MIN_VALUE, Double.MAX_VALUE };
+```
 
 ##		Short
-		short shortVal;
-		shortVal = 1;
+```java
+short shortVal;
+shortVal = 1;
+```
 
 ##		Short Array
-		short[] shortArrayVal = new short[] { 1, 2, 3, 400, Short.MIN_VALUE, Short.MAX_VALUE };
+```java
+short[] shortArrayVal = new short[] { 1, 2, 3, 400, Short.MIN_VALUE, Short.MAX_VALUE };
+```
 
 ##		Model Class | Custom Class
-		Person p = new Person();
-		p.setName("Name");
-		p.setAge(30);
-		Person person = new Person("Person", 20);
-		Person[] persons = new Person[] { (new Person("Person 1", 20)), (new Person("Person 2", 22)) };
-		
+[Model Person](/src/model/Person.java) 
+```java
+Person p = new Person();
+p.setName("Name");
+p.setAge(30);
+Person person = new Person("Person", 20);
+Person[] persons = new Person[] { (new Person("Person 1", 20)), (new Person("Person 2", 22)) };
+```
+
 ##		Model Class Array | Custom Class
-		Person[] persons = new Person[] { (new Person("Person 1", 20)), (new Person("Person 2", 22)) };
-		
+```java
+Person[] persons = new Person[] { (new Person("Person 1", 20)), (new Person("Person 2", 22)) };
+```
 
 ## Java String Format Specifiers
 
